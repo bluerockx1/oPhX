@@ -1,0 +1,4 @@
+work/
+out/
+*.iso
+archiso/airootfs/etc/skel/.config/
