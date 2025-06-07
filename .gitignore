@@ -1,4 +1,15 @@
-work/
+# Ignore build artifacts and ISO output
 out/
+work/
 *.iso
-archiso/airootfs/etc/skel/.config/
+
+# Ignore package manager cache
+pkg/
+src/
+*.tar.zst
+*.tar.xz
+*.log
+
+# Optional: ignore editor temp files
+*~
+*.swp
